@@ -1,9 +1,27 @@
+# Virtual Environment
 .venv/
-backend/output
-backend/temp
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Backend Outputs/Temp
+backend/output/
+backend/temp/
 backend/assets/
+backend/__pycache__/
+
+# Secrets & Config
 backend/client_secrets.json
 backend/token.json
 backend/config.json
-backend/config.py
 .env
+
+# Frontend Junk
+frontend/node_modules/
+frontend/dist/
+frontend/.DS_Store
+.DS_Store
+
+# Misc
+*.log
