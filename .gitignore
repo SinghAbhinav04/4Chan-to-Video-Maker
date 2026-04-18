@@ -1,0 +1,9 @@
+.venv/
+backend/output
+backend/temp
+backend/assets/
+backend/client_secrets.json
+backend/token.json
+backend/config.json
+backend/config.py
+.env
